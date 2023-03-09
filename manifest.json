@@ -1,0 +1,10 @@
+{
+    "name": "English Dictionary",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This Chrome web extension is designed for personal use, allowing you to easily search for the meaning of English words that you come across while browsing the web. With just a few clicks, you can quickly find the definition of any unfamiliar word. Enjoy the convenience of having an English dictionary at your fingertips!",
+    "action": {
+        "default_icon": "book.png",
+        "default_popup": "index.html"
+    }
+}
