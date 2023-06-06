@@ -1,6 +1,11 @@
 body {
   background-color: #f2f2f2;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2px;
 }
 
 h1 {
@@ -16,7 +21,6 @@ input[type="text"] {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   font-size: 16px;
 }
 
@@ -27,11 +31,12 @@ button {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   font-size: 16px;
   color: #fff;
-  background-color: #007bff;
+  background-color: #515e6c;
   cursor: pointer;
+  margin-top: 10px;
 }
 
-button:hover,
-input[type="text"]:hover {
+button:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #172c43;
 }

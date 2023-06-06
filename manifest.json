@@ -6,9 +6,5 @@
     "action": {
         "default_icon": "book.png",
         "default_popup": "index.html"
-    },
-    "permissions": [
-        "http://*/*",
-        "https://*/*"
-    ]
+    }
 }
